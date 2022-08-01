@@ -7,7 +7,7 @@ end
 RSpec.describe Array do
   subject { [1, 2, 3] }
 
-    include_examples 'a Ruby object with three elements'
+  include_examples 'a Ruby object with three elements'
 end
 
 RSpec.describe String do
