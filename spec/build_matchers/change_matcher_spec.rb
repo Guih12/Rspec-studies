@@ -7,5 +7,6 @@ RSpec.describe 'Changer matcher' do
 
   it 'accepts negative arguments' do
     expect { subject.pop }.to change { subject.length }.from(4).to(3)
+    expect { subject.pop }.to change { subject.length }.by(-1)
   end
 end
